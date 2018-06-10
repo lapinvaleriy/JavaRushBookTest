@@ -1,0 +1,107 @@
+body {
+    background: rgba(144, 213, 255, 0.08);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.panel-footer {
+    width: 100%;
+    background-color: #4CAF50;
+    font-size: 20px;
+}
+
+.panel-footer a:link {
+    color: #f2f2f2
+}
+
+.panel-footer a:visited {
+    color: #f2f2f2;
+}
+
+.panel-footer a:active {
+    color: #dcdede;
+}
+
+.table-list a:link {
+    text-decoration: none;
+    color: #006214;
+}
+
+.table-list a:visited {
+    text-decoration: none;
+    color: #006214;
+}
+
+.table-list a:hover {
+    text-decoration: underline;
+}
+
+.table-list a:active {
+    text-decoration: underline;
+}
+
+#search {
+    float: right;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Georgia;
+    color: #4caf50e0;
+}
+
+#add {
+    background-color: #4CAF50;
+    color: white;
+    padding: 11px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+#input-search {
+    border: 2px solid #4CAF50;
+    border-radius: 3px;
+    outline: none;
+    height: 38px;
+    width: 300px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+#btn-search {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 11px 30px;
+    text-decoration: none;
+    margin: 2px 4px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+#found {
+    color: #4CAF50;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
